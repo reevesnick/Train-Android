@@ -9,7 +9,10 @@
         android:text="Back"
         android:id="@+id/backBtn"
         android:layout_above="@+id/chestBtn"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/searchView2"
+        android:layout_alignEnd="@+id/searchView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -17,7 +20,10 @@
         android:text="Shoulders"
         android:id="@+id/shoulderBtn"
         android:layout_above="@+id/backBtn"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/searchView2"
+        android:layout_alignEnd="@+id/searchView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -25,7 +31,10 @@
         android:text="Chest"
         android:id="@+id/chestBtn"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/searchView2"
+        android:layout_alignEnd="@+id/searchView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -33,7 +42,10 @@
         android:text="Arms"
         android:id="@+id/armsBtn"
         android:layout_below="@+id/chestBtn"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/searchView2"
+        android:layout_alignEnd="@+id/searchView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -41,7 +53,10 @@
         android:text="Core"
         android:id="@+id/coreBtn"
         android:layout_below="@+id/armsBtn"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/searchView2"
+        android:layout_alignEnd="@+id/searchView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -49,7 +64,10 @@
         android:text="Legs"
         android:id="@+id/legsBtn"
         android:layout_below="@+id/coreBtn"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <SearchView
         android:layout_width="wrap_content"
